@@ -1,0 +1,45 @@
+{
+  "name": "onaynet-sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js & TypeScript SDK for OnayNet REST API v1 — Physical GSM SIM (Non-VoIP) Phone Number Allocation & Real-Time SMS OTP Verification across 190+ countries.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "node ./examples/test-smoke.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkspiritali-ai/onaynet-sdk.git"
+  },
+  "homepage": "https://onaynet.co/en/api-docs",
+  "bugs": {
+    "url": "https://github.com/darkspiritali-ai/onaynet-sdk/issues",
+    "email": "support@onaynet.co"
+  },
+  "keywords": [
+    "onaynet",
+    "non-voip-sms",
+    "sms-verification-api",
+    "otp-verification",
+    "virtual-phone-number",
+    "physical-sim-api",
+    "us-non-voip-number",
+    "playwright-sms-otp",
+    "puppeteer-otp",
+    "selenium-sms-verification",
+    "sms-onay-api",
+    "e164-phone-verification"
+  ],
+  "author": "OnayNet Telecom Engineering <support@onaynet.co> (https://onaynet.co)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
