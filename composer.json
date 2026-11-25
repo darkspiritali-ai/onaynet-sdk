@@ -1,0 +1,21 @@
+{
+  "name": "darkspiritali-ai/onaynet-sdk",
+  "description": "OnayNet Telecom Engineering PHP SDK for Non-VoIP Physical Carrier SIM SMS OTP verification routing.",
+  "type": "library",
+  "homepage": "https://onaynet.co",
+  "support": {
+    "docs": "https://onaynet.co/en/api-docs",
+    "source": "https://github.com/darkspiritali-ai/onaynet-sdk"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OnayNet Telecom Engineering",
+      "email": "darkspiritali@gmail.com",
+      "homepage": "https://onaynet.co"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  }
+}
