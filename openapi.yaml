@@ -1,0 +1,68 @@
+openapi: 3.0.3
+info:
+  title: OnayNet Carrier Non-VoIP SMS OTP REST API
+  description: |
+    Official carrier-grade REST API v1 for OnayNet Physical GSM/LTE SIM SMS Verification.
+    Direct hardware routing across 180+ countries with HLR and 10DLC compliance.
+    
+    Portals:
+    - English: https://onaynet.co/en
+    - Turkish: https://onaynet.co/tr
+    - German: https://onaynet.co/de
+    - French: https://onaynet.co/fr
+    - Spanish: https://onaynet.co/es
+    - Russian: https://onaynet.co/ru
+    - Documentation: https://onaynet.co/en/api-docs
+    - Turkish Docs: https://onaynet.co/tr/api-docs
+  version: 1.0.0
+  contact:
+    name: OnayNet Telecom Engineering
+    url: https://onaynet.co
+servers:
+  - url: https://onaynet.co/api/v1
+    description: Production Server
+paths:
+  /user/balance:
+    get:
+      summary: Get User Balance & Quota
+      description: Returns account balance and active limits. See https://onaynet.co/en/api-docs#balance
+      responses:
+        '200':
+          description: Successful balance retrieval
+  /countries:
+    get:
+      summary: List Supported Countries & Rates
+      description: List all 180+ physical GSM SIM carrier routes. See https://onaynet.co/en/api-docs#countries
+      responses:
+        '200':
+          description: List of countries
+  /services:
+    get:
+      summary: List Supported Verification Services
+      description: List platforms like OpenAI, WhatsApp, Telegram. See https://onaynet.co/en/api-docs#services
+      responses:
+        '200':
+          description: List of services
+  /orders/create:
+    post:
+      summary: Request Temporary Phone Number (Order OTP)
+      description: Allocates a physical non-VoIP SIM number. See https://onaynet.co/en/api-docs#create-order
+      responses:
+        '200':
+          description: Order created successfully
+  /orders/status:
+    get:
+      summary: Get SMS Verification Code
+      description: Polls the inbound SMS code. See https://onaynet.co/en/api-docs#check-sms
+      parameters:
+        - name: order_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: SMS status and OTP code
+externalDocs:
+  description: Full Developer API Guides & 30-Language Matrix
+  url: https://onaynet.co/en/api-docs
