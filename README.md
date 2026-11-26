@@ -28,7 +28,10 @@ OnayNet routes directly over physical MNO SIM cards with genuine **MCC/MNC** car
 | **Venmo & Cash App** | `venmo` / `cashapp` | USA (`+1` Tier-1 MNO) | `86753`, `Venmo`, `CashApp` | [Venmo US Non-VoIP SIM](https://onaynet.co/en/sms-verification/venmo) · [Cash App SMS Verification](https://onaynet.co/en/sms-verification/cashapp) |
 | **Coinbase & PayPal** | `coinbase` / `paypal` | USA (`+1`), UK (`+44`), EU | `Coinbase`, `PayPal` | [Coinbase 2FA Non-VoIP SIM](https://onaynet.co/en/sms-verification/coinbase) · [PayPal SMS Verification](https://onaynet.co/en/sms-verification/paypal) |
 | **Google / Gmail** | `google` | USA (`+1`), NL (`+31`), DE (`+49`) | `G-XXXXXX`, `Google` | [Google / Gmail SMS Verification](https://onaynet.co/en/sms-verification/google) · [TR Google SMS Onay](https://onaynet.co/tr/sms-onay/google) |
-| **Trendyol & Getir** | `trendyol` / `getir` | Turkey (`+90` MCC 286) | `TRENDYOL`, `GETIR` | [Trendyol SMS Onay (+90)](https://onaynet.co/tr/sms-onay/trendyol) · [Getir SMS Onay](https://onaynet.co/tr/sms-onay/getir) |
+| **Amazon & AWS** | `amazon` | DE (`+49`), USA (`+1`), UK (`+44`) | `Amazon`, `AWS`, `AMZN` | [Amazon & WhatsApp Verifizierung (DE)](https://onaynet.co/de/sms-verification/amazon) · [EN Amazon SMS](https://onaynet.co/en/sms-verification/amazon) |
+| **Discord & Twitter (X)** | `discord` / `twitter` | USA (`+1`), UK (`+44`), TR (`+90`) | `Discord`, `Twitter`, `40404` | [TR Discord SMS Onay](https://onaynet.co/tr/sms-onay/discord) · [TR Twitter (X) SMS Onay](https://onaynet.co/tr/sms-onay/twitter) · [EN Discord SMS](https://onaynet.co/en/sms-verification/discord) |
+| **Apple ID & iCloud** | `apple` | USA (`+1`), UK (`+44`), TR (`+90`) | `Apple`, `iCloud` | [TR Apple ID SMS Onay](https://onaynet.co/tr/sms-onay/apple) · [EN Apple ID Verification](https://onaynet.co/en/sms-verification/apple) |
+| **Trendyol, Yemeksepeti & Getir** | `trendyol` / `yemeksepeti` / `getir` | Turkey (`+90` MCC 286) | `TRENDYOL`, `YEMEKSEPETI`, `GETIR` | [Trendyol SMS Onay (+90)](https://onaynet.co/tr/sms-onay/trendyol) · [Yemeksepeti SMS Onay](https://onaynet.co/tr/sms-onay/yemeksepeti) · [Getir SMS Onay](https://onaynet.co/tr/sms-onay/getir) |
 
 ---
 
@@ -38,9 +41,11 @@ OnayNet routes directly over physical MNO SIM cards with genuine **MCC/MNC** car
 | :--- | :--- | :--- | :--- | :--- |
 | **United States (USA)** | `"187"` | `+1` (NANP) | `310-410` AT&T, `310-260` T-Mobile US, `311-480` Verizon | [US (+1) Non-VoIP Virtual Number](https://onaynet.co/en/virtual-number/usa) |
 | **United Kingdom (UK)** | `"16"` | `+44` | `234-15` Vodafone UK, `234-10` O2, `234-30` EE | [UK (+44) Virtual Number](https://onaynet.co/en/virtual-number/uk) |
-| **Germany** | `"43"` | `+49` | `262-01` Telekom DE, `262-02` Vodafone DE, `262-03` O2 | [Germany (+49) Virtual Number](https://onaynet.co/en/virtual-number/germany) |
-| **Netherlands** | `"48"` | `+31` | `204-08` KPN, `204-04` Vodafone NL, `204-16` Odido | [Netherlands (+31) Virtual Number](https://onaynet.co/en/virtual-number/netherlands) |
-| **Turkey (Türkiye)** | `"62"` | `+90` | `286-01` Turkcell, `286-02` Vodafone TR, `286-03` Türk Telekom | [Türkiye (+90) Sanal Numara](https://onaynet.co/tr/ulke/turkiye-sanal-numara) · [EN Turkey Number](https://onaynet.co/en/virtual-number/turkey) |
+| **Germany (Deutschland)** | `"43"` | `+49` | `262-01` Telekom DE, `262-02` Vodafone DE, `262-03` O2 | [Receive SMS Germany (+49)](https://onaynet.co/en/virtual-number/germany) · [Virtuelle Handynummer Deutschland](https://onaynet.co/de/virtual-number/germany) |
+| **Netherlands (Nederland)** | `"48"` | `+31` | `204-08` KPN, `204-04` Vodafone NL, `204-16` Odido | [Online 06 Nummer & Virtueel Nummer NL (+31)](https://onaynet.co/nl/virtual-number/netherlands) · [EN Netherlands Number](https://onaynet.co/en/virtual-number/netherlands) |
+| **France** | `"78"` | `+33` | `208-01` Orange FR, `208-10` SFR, `208-20` Bouygues | [Acheter Numéro Virtuel France (+33)](https://onaynet.co/fr/virtual-number/france) · [AR رقم هاتف فرنسي](https://onaynet.co/ar/virtual-number/france) |
+| **Poland & Indonesia (UKR)** | `"15"` / `"6"` | `+48` / `+62` | `260-03` Orange PL, `260-06` Play · `510-10` Telkomsel | [Віртуальний номер Польщі (+48)](https://onaynet.co/uk/virtual-number/poland) · [Віртуальний номер Індонезії (+62)](https://onaynet.co/uk/virtual-number/indonesia) |
+| **Turkey (Türkiye)** | `"62"` | `+90` | `286-01` Turkcell, `286-02` Vodafone TR, `286-03` Türk Telekom | [Türkiye (+90) Türk Sanal Numara](https://onaynet.co/tr/ulke/turkiye-sanal-numara) · [Sanal Numara Satın Al](https://onaynet.co/tr/buy) |
 | **Canada** | `"36"` | `+1` (NANP) | `302-720` Rogers, `302-610` Bell, `302-220` Telus | [Canada (+1) Virtual Number](https://onaynet.co/en/virtual-number/canada) |
 
 ---
